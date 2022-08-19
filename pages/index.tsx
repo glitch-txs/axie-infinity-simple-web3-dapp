@@ -5,7 +5,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import bg from '../public/bg-axie.png'
 import slp from '../slp.json'
-import Donate from '../components/donate'
+import Donate from '../components/Donate'
 
   //type of Ronin Provider
   declare global {
@@ -109,6 +109,7 @@ const Home: NextPage = () => {
           layout="fill"
           objectFit="cover"
           quality={100}
+          alt="Axie Infinity"
       />
     </div>
     <div className={styles.container}>
